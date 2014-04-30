@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wicket Examples - signin</title>
+</head>
+<body>
+    <span/>
+    
+    <span/>
+    <p>
+    <i>Username and password are both "wicket"</i>
+    </p>
+    <form wicket:id="signInForm">
+        <table>
+            <tr>
+              <td align="right">Username:</td>
+              <td>
+                <input wicket:id="username" type="text" value="foo@goo.moo" size="30"/>
+              </td>
+            </tr>
+            <tr>
+              <td align = "right">Password:</td>
+              <td>
+                <input wicket:id="password" type="password" value="password" size="30"/>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" value="Sign In"/>
+              </td>
+            </tr>
+        </table>    
+    </form>
+</body>
+</html>
